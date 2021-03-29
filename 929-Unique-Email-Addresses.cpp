@@ -30,7 +30,7 @@ public:
                 v_list.push_back(newLocal);
             }
         }
-        //for(int i = 0; i < v_list.size(); i++)cout << v_list[i] << endl;
+        for(int i = 0; i < v_list.size(); i++)cout << v_list[i] << endl;
         return v_list.size() ;
     }
 };
